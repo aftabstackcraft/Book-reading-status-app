@@ -1,0 +1,45 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-color: #0B0909;
+    color: #B5B9F0;
+}
+
+.bookh1{
+text-align: center;
+margin: 20px;
+
+}
+
+.complete-status{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.card-container #head{
+    text-align: center;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+
+.card{
+    background-color: #2E4540;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid #408175 ;
+}
