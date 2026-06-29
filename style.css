@@ -1,33 +1,37 @@
-*{
-margin: 0px;
-padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
     background-color: #22223b;
+    font-family: "Outfit", sans-serif;
 }
 
-.bookh1{
-text-align: center;
-margin: 20px;
-color:#c9ada7;
+.bookh1 {
+    text-align: center;
+    margin: 20px;
+    color: #c9ada7;
 }
 
-.complete-status{
+.complete-status {
     text-align: center;
     margin-bottom: 20px;
     color: #c9ada7;
 }
 
 
-.head{
+.head {
     text-align: center;
     margin-bottom: 30px;
     color: #c9ada7;
 }
-.card-container{
+
+.card-container {
     max-width: 80vw;
-     gap: 20px;
+    gap: 20px;
     font-size: medium;
     display: flex;
     flex-wrap: wrap;
@@ -37,18 +41,26 @@ color:#c9ada7;
     padding: 20px;
 }
 
-
-.card{
+.card h3{
+    font-size: 25px;
+}
+.card {
     background-color: #4a4e69;
     padding: 10px;
     display: flex;
     color: #f2e9e4;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     gap: 20px;
     margin: 20px;
-    border: 5px solid #9a8c98 ;
     width: 200px;
     height: 250px;
+    box-shadow: 1px 1px 10px 2px #4a4e69;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 16px 1px;
+    translate: -5px -5px;
 }
