@@ -41,9 +41,10 @@ body {
     padding: 20px;
 }
 
-.card h3{
+.card h3 {
     font-size: 25px;
 }
+
 .card {
     background-color: #4a4e69;
     padding: 10px;
@@ -60,7 +61,22 @@ body {
     box-shadow: 1px 1px 10px 2px #4a4e69;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 1px 1px 16px 1px;
     translate: -5px -5px;
+}
+
+.btn {
+    background: none;
+    background-color: #ac8f7b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    background-color: #e1a179;
 }
